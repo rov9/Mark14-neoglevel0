@@ -15,6 +15,10 @@ function submitHandler(){
     calculateProfitAndLoss(ip, qty, curr);
 }
 
+if(ip==''||qty == ''||curr==''){
+    alert('Please fill out all Fields') 
+  }
+
 function calculateProfitAndLoss(initial, quantity, current){
     if (initial > current) {
         var loss = (initial - current) * quantity;
@@ -36,4 +40,7 @@ function calculateProfitAndLoss(initial, quantity, current){
       }
     }
 
-    
+    function showOutput(message) {
+        outputBox.innerHTML = message;
+    }
+

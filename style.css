@@ -8,9 +8,17 @@
 body{
     font-family: 'Varela', sans-serif;
 }
+
+.container
+{
+  width:50%;
+  margin:auto;
+  display: block;
+}
+
 .input-allign
 {
-    margin:7rem 0rem 0rem 33rem; 
+    //margin:7rem 0rem 0rem 33rem; 
    
     /* display: flex; justify-content: center;  */
 
@@ -18,23 +26,21 @@ body{
 
 header h1{
 text-align: center;
-margin: 3rem 0rem 0rem 0rem;
+/* margin: 3rem 0rem 0rem 0rem; */
 }
 
 #submit-btn{
-
-    /* display:flex;
-    justify-content: center; */
-
-    padding: 0.7rem 1rem;
+    display:block;
+    margin:auto; 
+    margin-top:1rem;
     border-radius: 0.5rem;
     background: var(--primary-color);
-    margin: 2rem 0rem 0rem 36.5rem;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
 .input{
+margin:auto; 
 display: block;
 border-radius: 0.5rem;
 border: 2px solid var(--primary-color);
@@ -42,8 +48,9 @@ border: 2px solid var(--primary-color);
 }
 
 .input-label{
+    width:80%;
     display: block;
-    margin: 1rem 0px;
+    margin: auto;
     font-weight: 600;
     color: #6B7280;
 }
@@ -51,7 +58,6 @@ border: 2px solid var(--primary-color);
 .output
 
    {
-       /* margin: 5rem 0rem 20rem 0rem; */
         text-align: center;
         color: black;   
         margin: 1rem;
@@ -62,5 +68,5 @@ li {
   }
 
 footer {
-   margin: 4rem 0rem 0rem 31.5rem;
+   font-size: 1.5rem;
   } 

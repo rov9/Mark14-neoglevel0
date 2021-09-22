@@ -20,7 +20,11 @@ function submitHandler() {
 
 
 function calculateProfitAndLoss(initial, quantity, current) {
- 
+ if(initial<=0||quantity<=0||current<=0)
+ {
+   outputBox.innerHTML("Enter valid values!");
+ }
+ else{
   if (initial > current) {
     
     var loss = (initial - current) * quantity;
@@ -57,5 +61,6 @@ function calculateProfitAndLoss(initial, quantity, current) {
       outputBox.innerHTML = message;
     }
   }
+ }
 }
 

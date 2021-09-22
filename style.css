@@ -16,23 +16,17 @@ body{
   display: block;
 }
 
-.input-allign
-{
-    //margin:7rem 0rem 0rem 33rem; 
-   
-    /* display: flex; justify-content: center;  */
-
-}
 
 header h1{
 text-align: center;
-/* margin: 3rem 0rem 0rem 0rem; */
+margin-bottom: 3rem;
 }
 
 #submit-btn{
+    
     display:block;
     margin:auto; 
-    margin-top:1rem;
+    margin-top: 1rem;
     border-radius: 0.5rem;
     background: var(--primary-color);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -48,7 +42,8 @@ border: 2px solid var(--primary-color);
 }
 
 .input-label{
-    width:80%;
+    width:100%;
+    text-align: center;
     display: block;
     margin: auto;
     font-weight: 600;
@@ -56,7 +51,6 @@ border: 2px solid var(--primary-color);
 }
 
 .output
-
    {
         text-align: center;
         color: black;   
@@ -68,5 +62,5 @@ li {
   }
 
 footer {
-   font-size: 1.5rem;
+   font-size: 2rem;
   } 

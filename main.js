@@ -29,7 +29,7 @@ else{
   if (initial > current) {
     
     var loss = (initial - current) * quantity;
-    var lossPercentage = (loss / initial) * 100;
+    var lossPercentage = ((initial - current) / initial) * 100;
     loss=loss.toFixed(2);
     lossPercentage=lossPercentage.toFixed(2);
     showOutput(
@@ -43,7 +43,7 @@ else{
   
   } else if (current > initial) {
     var profit = (current - initial) * quantity;
-    var profitPercentage = (profit / initial) * 100;
+    var profitPercentage = ((current - initial) / initial) * 100;
     profit=profit.toFixed(2);
     profitPercentage=profitPercentage.toFixed(2);
 

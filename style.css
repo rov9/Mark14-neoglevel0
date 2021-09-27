@@ -52,9 +52,11 @@ border: 2px solid var(--primary-color);
 
 .output
    {
+        margin-top: 3rem;
         text-align: center;
         color: black;   
-        margin: 1rem;
+        font-size: 1.1rem;
+        font-weight: 210rem;
 }
 
 li {

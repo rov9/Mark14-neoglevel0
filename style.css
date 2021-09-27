@@ -52,7 +52,7 @@ border: 2px solid var(--primary-color);
 
 .output
    {
-        margin-top: 3rem;
+        margin-top: 1rem;
         text-align: center;
         color: black;   
         font-size: 1.1rem;
@@ -64,5 +64,5 @@ li {
   }
 
 footer {
-   font-size: 2rem;
+   margin-top: 9rem;
   } 
